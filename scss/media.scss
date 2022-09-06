@@ -1,0 +1,554 @@
+@media(max-width: 1210px){
+  .partner-btn{
+    position: relative;
+    z-index: 2;
+    box-shadow: none;
+  }
+  
+ 
+}
+
+@media(max-width: 1120px){
+  .blackhoney__products-item {
+    margin-top: 35px;
+  }
+
+  .certificate__wrap {
+    margin-top: 40px;
+  }
+ 
+}
+
+
+
+@media(max-width: 1000px){
+  .top-bg {
+    min-height: 585px;
+  }
+  .top__title{
+    font-size: 48px;
+  }
+
+  .img__before::after{
+    left: 10px;
+  }
+
+  .img__before::before{
+    left: 60px;
+  }
+
+  .img__after::before{
+    right: 20px;
+  }
+
+  .img__after::after{
+    right: 35px;
+  }
+
+  .top__inner img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .company__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .founders {
+    margin-top: 55px;
+  }
+
+  .partner__border::before{
+    display: none;
+  }
+  .partner__border::after{
+    width: 100%;
+  }
+
+ 
+}
+
+
+
+
+@media(max-width: 880px){
+  .menu__list{
+    display: block;
+    transform: translateX(-300px);
+    transition: all .5s;
+    position: absolute;
+    width: 260px;
+    left: 0;
+    padding: 25px 0;
+    z-index: 2;
+    background: #191919;
+    top: 94px;
+  }
+
+  .menu__list--active{
+    transform: translateX(0);
+  }
+
+  .menu__link {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 0;
+  }
+
+  .menu__item {
+    margin: 7px 0;
+  }
+
+  .menu__btn{
+    width: 40px;
+    height: 30px;
+    background-color: transparent;
+    border-top: 1px solid #e1d576;
+    border-bottom: 1px solid #e1d576;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+    
+  .menu__btn span{
+    width: 40px;
+    height: 1px;
+    background-color: #e1d576;
+    display: block;
+  }
+
+  .products__img::before {
+    width: 210px;
+    height: 220px;
+    top: 63px;
+    right: 70px;
+  }
+
+  .products__img img{
+    width: 315px;
+    height: 275px;
+  }
+
+  .products__box {
+    margin-right: 15px;
+  }
+
+  .blackhoney__products {
+    flex-wrap: wrap;
+  }
+
+  .blackhoney__products-item {
+    width: 100%;
+  }
+
+  .blackhoney__products-img img {
+    width: 340px;
+    height: 300px;
+  }
+
+  .blackhoney__products-img::before {
+    width: 135px;
+    height: 280px;
+    top: 28px;
+    left: 39%;
+  }
+
+  .blackhoney__products-item2 {
+    margin: 0 38px;
+    padding-top: 55px;
+    max-width: 100%;
+    text-align: justify;
+    order: 2;
+  }
+
+  .blackhoney__products-subtitle {
+    text-align: center;
+  }
+
+  .blackhoney__products-p {
+    max-width: 100%;
+  }
+
+  .blackhoney__products-item {
+    margin-top: 55px;
+  }
+
+  .diatoms__products {
+    margin-bottom: 30px;
+  }
+
+  .diatoms__title-title {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .diatoms__wrap::after {
+    left: auto;
+  }
+
+  .blackhoney__items {
+    flex-wrap: wrap;
+    margin: 0 38px;
+  }
+
+  .fertilizer__area,
+  .fertilizer__efficiency ul {
+    max-width: 100%;
+  }
+
+  .certificate__title {
+    padding-top: 50px;
+  }
+
+  .certificate-slider button.arrow-prev {
+    left: 5%;
+  }
+
+  .certificate-slider button.arrow-next {
+    left: 88%;
+  }
+  
+  .footer__wrap {
+    padding: 20px 0 70px 0;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .footer__menu{
+    order: 2;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .footer__cosial-box {
+    order: 3;
+  }
+
+  .footer__copy-inner{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__copy-text {
+    border-bottom: none;
+  }
+
+}
+
+
+  @media(max-width: 750px){
+    .img__before::after {
+      width: 90px;
+      height: 155px;
+    }
+
+    .img__before::before {
+      width: 80px;
+      height: 155px;
+    }
+
+    .img__after::before {
+      width: 85px;
+      height: 185px;
+      right: 3px;
+    }
+
+    .img__after::after {
+      width: 85px;
+      height: 240px;
+      right: 46px;
+      top: -185px;
+    }
+
+    .top__title {
+      font-size: 44px;
+    }
+
+    .company__title {
+      top: 34px;
+    }
+
+    .company__info {
+      max-width: 255px;
+    }
+
+    .company__info-img::before {
+      left: auto; 
+      right: -55px;
+    }
+
+    .founders__item,
+    .founders__item:first-child {
+      width: 192px;
+    }
+
+    .founders__img img{
+      width: 182px;
+      height: 200px;
+    }
+
+    .blackhoney__products-item2 {
+      margin: 0 10px;
+      text-align: left;
+    }
+
+    .blackhoney__items {
+      margin: 0 10px;
+    }
+
+    .partner__img img{
+      width: 130px;
+      height: 165px;
+      position: absolute;
+      top: 40px;
+      left: -140px;
+    }
+    
+      .partner__item {
+        max-width: 524px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .partner__item form{
+      max-width: 100%;
+    }
+
+    .partner__items {
+      flex-wrap: wrap;
+    }
+
+    .contacts__item {
+      margin-bottom: 30px;
+    }
+
+    .contacts__inner .partner__item {
+      text-align: center;
+    }
+
+  }
+
+
+  @media(max-width: 693px){
+    .certificate__item img {
+      width: 190px;
+      height: 265px;
+    }
+  }
+
+
+  @media(max-width: 620px){
+    .img__before {
+      top: 325px;
+    }
+
+    .products__item{
+      flex-wrap: wrap;
+    }
+
+    .products__box{
+      order: 2;
+    }
+
+    .blackhoney__items {
+      flex-wrap: wrap;
+    }
+
+    .advantage {
+      width: 100%;
+    }
+
+    .advantage__items, .characteristic__items {
+      justify-content: space-around;
+      max-width: 100%;
+    }
+  } 
+
+  @media(max-width: 530px){
+    .footer__inner {
+      width: 380px;
+    }
+  }
+
+
+  @media(max-width: 506px){
+    .founders__item, .founders__item:first-child {
+      width: 155px;
+    }
+
+    .founders__img img {
+      width: 155px;
+      height: 176px;
+    }
+
+    .blackhoney__products-img::before {
+      left: 28%;
+    } 
+
+    .advantage__item, .characteristic__item {
+      max-width: 100%;
+    }
+
+    .news__item{
+      max-width: 270px;
+    }
+
+    .news__img {
+      width: 270px;
+      height: 194px;
+    }
+
+  }
+
+
+  @media(max-width: 440px){
+    button{
+      width: 95px;
+    }
+    .top__title {
+      font-size: 40px;
+    }
+
+    .top__inner img {
+      width: 170px;
+      height: 170px;
+    }
+
+    .img__after::after {
+      width: 50px;
+      height: 140px;
+      right: 30px;
+      top: -180px;
+    }
+
+    .img__after::before {
+      width: 50px;
+      height: 110px;
+      right: 0px;
+    }
+
+    .img__before::before {
+      width: 50px;
+      height: 95px;
+      top: -80px;
+      right: 0px;
+      left: auto;
+      z-index: 1;
+    }
+
+    .img__before::after {
+      width: 56px;
+      height: 95px;
+      left: auto;
+      right: 35px;
+      z-index: 2;
+      top: -75px;
+    }
+
+    .border {
+      height: 15px;
+    }
+
+    .company__inner img{
+      width: 200px;
+    }
+
+    h4{
+      font-size: 22px;
+    }
+
+    .company__info {
+      padding-top: 30px;
+    }
+
+    .founders {
+      padding-top: 23px;
+    }
+
+    .founders__item, .founders__item:first-child {
+      width: 100%;
+    }
+
+    .founders__text {
+      margin-top: 5px;
+      font-size: 10px;
+      line-height: 140%;
+    }
+    .blackhoney__products-img img {
+      width: 275px;
+    height: 245px;
+    }
+
+    .news__item{
+      max-width: 176px;
+    }
+
+    .news__img {
+      width: 176px;
+    height: 130px;
+    }
+
+    .news-slider button.arrow-prev,
+    .news-slider button.arrow-next {
+      top: 15%;
+    }
+
+    .footer__inner {
+      width: 280px;
+    }
+
+    .footer__cosial {
+      margin-right: 40px;
+    }
+
+  }
+
+  @media(max-width: 345px){
+    .img__before::before,
+    .img__before::after {
+      top: -117px;
+      z-index: 0;
+    }
+
+    .img__after::before {
+      z-index: 1;
+      top: -135px;
+    }
+
+    .img__after::after {
+      right: 27px;
+      top: -152px;
+    }
+
+    .products__img img {
+      width: 285px;
+      height: 265px;
+    }
+
+    .products__img::before {
+      right: 50px;
+    }
+
+    
+
+    .blackhoney__products-img::before {
+      width: 85px;
+      height: 220px;
+      left: 28%;
+    }
+
+    .certificate-slider button.arrow-next {
+      left: 75%;
+    }
+  }
+
+  

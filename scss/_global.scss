@@ -1,0 +1,110 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+// html,
+// body {
+//   height: 100%;
+//   position: relative;
+//   overflow-x: hidden;
+// }
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: $text;
+
+}
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: block;
+}
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: $text;
+  background: #191919;
+}
+
+// font-family: 'Cormorant Garamond', serif;
+
+// font-family: 'Montserrat', sans-serif;
+
+
+.container-fluid{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+
+button{
+  @include f700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #191919;
+  width: 158px;
+  height: 36px;
+  background: linear-gradient(90deg, #C1AD64 1.88%, #A98343 35.61%, #A27C3D 54.52%, #C4B067 87.74%);
+  box-shadow: 7px 7px 10px #000000;
+  outline: none;
+  border-style: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+h4{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 85.6%;;
+  background: linear-gradient(90deg, #C1AD64 1.88%, #A98343 35.61%, #A27C3D 54.52%, #C4B067 87.74%);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin: 0;
+}
+
+h5{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 85.6%;
+  margin: 0;
+  background: linear-gradient(90deg, #C1AD64 1.88%, #A98343 35.61%, #A27C3D 54.52%, #C4B067 87.74%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+h6{
+  @include f400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #B0A33D;
+  margin: 0;
+}
+

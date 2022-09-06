@@ -1,0 +1,22 @@
+$text: #fff;
+
+// $red: #e74c3c;
+// $green: #8bc34a;
+// $bg: #263238;
+// $grey: #f4f6f5;
+// $yellow: #fcb322;
+// $tomato: #ef6c00;
+// $azul: #0d57b9;
+
+
+@mixin f400 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+@mixin f700 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+
